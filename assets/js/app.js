@@ -21,6 +21,12 @@
                 holidays.push(holiday);
             });
 
+            const projectURL = 'https://carolsvntos.github.io/proximo-feriado/'
+
+            fetch(`${projectURL}/assets/data/sao-paulo.json`)
+                .then((response) => response.json())
+                .then((json) => console.log(json));
+
             for (i = 0; i <= holidays.length; i++) {
 
                 const comparisonDate = parseInt(holidays[i]?.date.replace(/[^a-zA-Z0-9 ]/g, ''));
