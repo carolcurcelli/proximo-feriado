@@ -21,6 +21,20 @@
                 holidays.push(holiday);
             });
 
+            const projectURL = 'https://carolsvntos.github.io/proximo-feriado'
+            const stateSelection = document.getElementById('state');
+
+            stateSelection.addEventListener('change', (e) => {
+                const selectedState = stateSelection.value;
+                if(selectedState !== 'all') {
+                    fetch(`${projectURL}/assets/data/${selectedState}.json`)
+                    .then((response) => response.json())
+                    .then((json) => 
+                        console.log(json[0].name)
+                    );
+                }
+            });
+
             for (i = 0; i <= holidays.length; i++) {
 
                 const comparisonDate = parseInt(holidays[i]?.date.replace(/[^a-zA-Z0-9 ]/g, ''));
