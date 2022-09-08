@@ -1,0 +1,190 @@
+body {
+    min-height: 100vh;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.holiday__wrapper {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.holiday__message {
+    text-align: center;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgb(253 236 241 / 25%);
+    border-radius: 4px;
+    box-shadow: 0 26px 42px rgb(207 158 158 / 10%);
+    padding: 2em;
+}
+
+h1 {
+    font-weight: 400;   
+}
+
+#name {
+    font-family: 'Bebas Neue';
+    display: block;
+    font-size: 3rem;
+}
+
+.disclaimer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background: #000;
+    padding: 1em;
+    font-size: .7em;
+    color: #ffffff;
+}
+
+.disclaimer p {
+    display: inline;
+}
+
+.disclaimer p:after {
+    content: '|';
+    padding: 0 1em;
+}
+
+.disclaimer p:last-child:after {
+    content: '';
+}
+
+.github-corner {
+    position: absolute;
+    top: 0px;
+    border: 0px;
+    right: 0px;
+    z-index: 20;
+}
+
+.github-corner:hover .octo-arm {
+    animation:octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave{
+    0%,100%{transform:rotate(0)}
+    20%,60%{transform:rotate(-25deg)}
+    40%,80%{transform:rotate(10deg)}
+}
+
+.githubCorner {
+    fill: rgb(211, 155, 192);
+}
+
+/* BACKGROUNDS */
+
+.ano-novo {
+    background-image: url('../../assets/img/ano-novo.jpg');
+    color: #ffffff;
+}
+
+.ano-novo .githubCorner {
+    color: #2d142a;
+}
+
+.carnaval {
+    background-image: url('../../assets/img/carnaval.jpg');
+}
+
+.carnaval .githubCorner {
+    color: #e3e0d7;
+}
+
+.sexta-feira-santa {
+    background-image: url('../../assets/img/sexta-feira-santa.jpg');
+    color: #ffffff;
+}
+
+.sexta-feira-santa .githubCorner {
+    color: #7e5e1d;
+}
+
+.pascoa {
+    background-image: url('../../assets/img/pascoa.jpg');
+}
+
+.pascoa .githubCorner {
+    color: #0067a9;
+}
+
+.tiradentes {
+    background-image: url('../../assets/img/tiradentes.jpg');
+}
+
+.tiradentes .githubCorner {
+    color: #3d4700;
+}
+
+.dia-do-trabalho {
+    background-image: url('../../assets/img/dia-do-trabalho.jpg');
+}
+
+.dia-do-trabalho .githubCorner {
+    color: #3498db;
+}
+
+.corpus-christi {
+    background-image: url('../../assets/img/corpus-christi.jpg');
+    background-position: center;
+    color: #ffffff;
+}
+
+.corpus-christi .githubCorner {
+    color: #232122;
+}
+
+.independencia-do-brasil {
+    background-image: url('../../assets/img/independencia-do-brasil.jpg');
+    background-position: 50% 65%;
+    color: #ffffff;
+}
+
+.independencia-do-brasil .githubCorner {
+    color: #8c9199;
+}
+
+.nossa-senhora-aparecida {
+    background-image: url('../../assets/img/nossa-senhora.jpg');
+    color: #ffffff;
+}
+
+.nossa-senhora-aparecida .githubCorner {
+    color: #131112;
+}
+
+.finados {
+    background-image: url('../../assets/img/finados.jpg');
+    background-position: center;
+}
+
+.finados .githubCorner {
+    color: #80807a;
+}
+
+.proclamacao-da-republica {
+    background-image: url('../../assets/img/proclamacao-da-republica.jpg');
+}
+
+.proclamacao-da-republica .githubCorner {
+    color: #e3eeff;
+}
+
+.natal {
+    background-image: url('../../assets/img/natal.jpg');
+    color: #ffffff;
+}
+
+.natal .githubCorner {
+    color: #352e1d;
+}
