@@ -31,6 +31,8 @@
                     .then((response) => response.json())
                     .then((json) => 
                         console.log(json[0].name)
+                        // fazer um for que adiciona cada item do json em holiday
+                        // fazer comparação de novo
                     );
                 }
             });
