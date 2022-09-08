@@ -1,0 +1,27 @@
+[
+    {
+        "date": "2022-01-20",
+        "name": "Dia do Católico",
+        "type": "estadual"
+    },
+    {
+        "date": "2022-01-25",
+        "name": "Dia do Evangélico",
+        "type": "estadual"
+    },
+    {
+        "date": "2022-06-15",
+        "name": "Aniversário do Estado do Acre",
+        "type": "estadual"
+    },
+    {
+        "date": "2022-09-05",
+        "name": "Dia da Amazônia",
+        "type": "estadual"
+    },
+    {
+        "date": "2022-11-17",
+        "name": "Tratado de Petrópolis",
+        "type": "estadual"
+    }
+]
