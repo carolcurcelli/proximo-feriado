@@ -82,9 +82,29 @@ h1 {
     fill: rgb(211, 155, 192);
 }
 
+.state-select {
+    color: inherit;
+    font-size: .9rem;
+    margin-bottom: 1.5em;
+    border: solid 1px;
+}
+
+.state-select option {
+    color: #000000;
+}
+
 /* BACKGROUNDS */
 
-.ano-novo {
+.holiday {
+    background-image: url('../../assets/img/holiday.jpg');
+    color: #000000;
+}
+
+.holiday .githubCorner {
+    color: #9a8d87;
+}
+
+.holiday.ano-novo {
     background-image: url('../../assets/img/ano-novo.jpg');
     color: #ffffff;
 }
@@ -93,7 +113,7 @@ h1 {
     color: #2d142a;
 }
 
-.carnaval {
+.holiday.carnaval {
     background-image: url('../../assets/img/carnaval.jpg');
 }
 
@@ -101,7 +121,7 @@ h1 {
     color: #e3e0d7;
 }
 
-.sexta-feira-santa {
+.holiday.sexta-feira-santa {
     background-image: url('../../assets/img/sexta-feira-santa.jpg');
     color: #ffffff;
 }
@@ -110,7 +130,7 @@ h1 {
     color: #7e5e1d;
 }
 
-.pascoa {
+.holiday.pascoa {
     background-image: url('../../assets/img/pascoa.jpg');
 }
 
@@ -118,7 +138,7 @@ h1 {
     color: #0067a9;
 }
 
-.tiradentes {
+.holiday.tiradentes {
     background-image: url('../../assets/img/tiradentes.jpg');
 }
 
@@ -126,7 +146,7 @@ h1 {
     color: #3d4700;
 }
 
-.dia-do-trabalho {
+.holiday.dia-do-trabalho {
     background-image: url('../../assets/img/dia-do-trabalho.jpg');
 }
 
@@ -134,7 +154,7 @@ h1 {
     color: #3498db;
 }
 
-.corpus-christi {
+.holiday.corpus-christi {
     background-image: url('../../assets/img/corpus-christi.jpg');
     background-position: center;
     color: #ffffff;
@@ -144,7 +164,7 @@ h1 {
     color: #232122;
 }
 
-.independencia-do-brasil {
+.holiday.independencia-do-brasil {
     background-image: url('../../assets/img/independencia-do-brasil.jpg');
     background-position: 50% 65%;
     color: #ffffff;
@@ -154,7 +174,7 @@ h1 {
     color: #8c9199;
 }
 
-.nossa-senhora-aparecida {
+.holiday.nossa-senhora-aparecida {
     background-image: url('../../assets/img/nossa-senhora.jpg');
     color: #ffffff;
 }
@@ -163,7 +183,7 @@ h1 {
     color: #131112;
 }
 
-.finados {
+.holiday.finados {
     background-image: url('../../assets/img/finados.jpg');
     background-position: center;
 }
@@ -172,7 +192,7 @@ h1 {
     color: #80807a;
 }
 
-.proclamacao-da-republica {
+.holiday.proclamacao-da-republica {
     background-image: url('../../assets/img/proclamacao-da-republica.jpg');
 }
 
@@ -180,7 +200,7 @@ h1 {
     color: #e3eeff;
 }
 
-.natal {
+.holiday.natal {
     background-image: url('../../assets/img/natal.jpg');
     color: #ffffff;
 }
