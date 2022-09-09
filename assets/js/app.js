@@ -29,11 +29,18 @@
                 if(selectedState !== 'all') {
                     fetch(`${projectURL}/assets/data/${selectedState}.json`)
                     .then((response) => response.json())
-                    .then((json) => 
-                        console.log(json[0].name)
-                        // fazer um for que adiciona cada item do json em holiday
-                        // fazer comparação de novo
-                    );
+                    .then((json) => {
+                        
+                        json.forEach(holiday => {
+                            holiday.date = `${currentYear}-${holiday.date}`;
+                            holidays.push(holiday);
+                        });
+
+                        console.log(holidays);
+
+
+
+                    });
                 }
             });
 
