@@ -28,6 +28,7 @@
                             const nextHoliday = {
                                 name: holidays[i].name,
                                 date: new Date(holidays[i].date),
+                                type: holidays[i].type,
                                 formattedDate: holidays[i].date.split("-").reverse().join("/"),
                                 class: holidays[i].name.toLowerCase().split(' ').join('-'),
                             };
@@ -43,6 +44,14 @@
                             name.innerHTML = nextHoliday.name;
                             date.innerHTML = nextHoliday.formattedDate;
                             daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
+
+                            console.log(nextHoliday.type);
+                            if (nextHoliday.type == 'estadual') {
+                                const randomNumber = Math.floor(Math.random() * 6)
+                                document.body.style.backgroundImage = `url('assets/img/holiday${randomNumber}.jpg')`;
+                            } else {
+                                document.body.style.backgroundImage = '';
+                            }
 
                             break
                         }
@@ -77,8 +86,8 @@
                                 // a must be equal to b
                                 return 0;
                             });
+
                             updateHoliday();
-                            console.log(holidays)
                         });
                     
                 });
