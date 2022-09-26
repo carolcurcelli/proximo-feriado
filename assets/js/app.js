@@ -36,7 +36,6 @@
                                 const oneDayInMiliseconds =  24 * 60 * 60 * 1000000;
                                 const differenceInTime = date2.getTime() - date1.getTime();
                                 return Math.floor(differenceInTime / (1000 * 3600 * 24)) + 1;
-;
                             }
                             
                             document.body.className = `holiday ${nextHoliday.class}`
@@ -44,7 +43,6 @@
                             name.innerHTML = nextHoliday.name;
                             date.innerHTML = nextHoliday.formattedDate;
                             daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
-
 
                             break
                         }
@@ -55,16 +53,20 @@
                 stateSelection.addEventListener('change', (e) => {
                     const projectURL = 'https://carolsvntos.github.io/proximo-feriado'
                     const selectedState = stateSelection.value;
-                        fetch(`${projectURL}/assets/data/${selectedState}.json`)
+                    fetch(`${projectURL}/assets/data/${selectedState}.json`)
                         .then((response) => response.json())
                         .then((json) => {
                             holidays = holidays.filter(object => {
                                 return object.type !== 'estadual';
                             })
-                            json.forEach(holiday => {
-                                holiday.date = `${currentYear}-${holiday.date}`;
-                                holidays.push(holiday);
-                            });
+                            if (selectedState !== 'all' && 
+                                selectedState !== 'goias' && 
+                                selectedState !== 'parana') {
+                                json.forEach(holiday => {
+                                    holiday.date = `${currentYear}-${holiday.date}`;
+                                    holidays.push(holiday);
+                                });
+                            }
                             holidays.sort(function (a, b) {
                                 if (a.date > b.date) {
                                     return 1;
@@ -76,9 +78,9 @@
                                 return 0;
                             });
                             updateHoliday();
+                            console.log(holidays)
                         });
-                        console.log(`${projectURL}/assets/data/${selectedState}.json`)
-                        console.log(holidays)
+                    
                 });
                     
         
