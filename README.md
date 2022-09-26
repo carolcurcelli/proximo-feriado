@@ -36,9 +36,9 @@
 
 - [x] Trazer nome e data do próximo feriado nacional
 - [x] Mudar imagem de fundo dependendo de qual é o próximo feriado
-- [ ] Dizer quantos dias faltam para o próximo feriado
-- [ ] Trazer nome e data do próximo feriado nacional + feriado do estado de São Paulo
-- [ ] Dar possibilidade de selecionar qual estado a pessoa está pra ver qual é o próximo feriado
+- [x] Dizer quantos dias faltam para o próximo feriado
+- [x] Trazer nome e data do próximo feriado nacional + feriado do estado de São Paulo
+- [x] Dar possibilidade de selecionar qual estado a pessoa está pra ver qual é o próximo feriado
 
 <div align="center">
   <br /><br /><br /><br />
