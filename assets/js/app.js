@@ -2,6 +2,7 @@
 
     const name = document.getElementById('name');
     const date = document.getElementById('date');
+    const daysRemaining = document.getElementById('daysRemaining');
 
     const starterDate = new Date();
     const currentDay = starterDate.getDate().toString().padStart(2, "0");
@@ -29,7 +30,7 @@
                 if(selectedState !== 'all') {
                     fetch(`${projectURL}/assets/data/${selectedState}.json`)
                     .then((response) => response.json())
-                    .then((json) => 
+                    .then((json) =>
                         console.log(json[0].name)
                     );
                 }
@@ -41,13 +42,18 @@
                 today = parseInt(today);
 
                 if (comparisonDate >= today) {
-                    let holidayDate = holidays[i].date.split("-").reverse().join("/");
-                    let holidayClass = holidays[i].name.toLowerCase().split(' ').join('-');
+                    const nextHoliday = {
+                        name: holidays[i].name,
+                        date: new Date(comparisonDate),
+                        formattedDate: holidays[i].date.split("-").reverse().join("/"),
+                        class: holidays[i].name.toLowerCase().split(' ').join('-'),
+                    };
 
-                    document.body.classList.add(holidayClass);
-                    document.title = `O Próximo Feriado Nacional é ${holidays[i].name}`
-                    name.innerHTML = holidays[i].name;
-                    date.innerHTML = holidayDate;
+                    document.body.classList.add(nextHoliday.class);
+                    document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
+                    name.innerHTML = nextHoliday.name;
+                    date.innerHTML = nextHoliday.formattedDate;
+                    daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
 
                     break
                 }
@@ -63,3 +69,8 @@
     request.send()
 
 })();
+
+const countDays = (from, to) => {
+    const oneDayInMiliseconds =  24 * 60 * 60 * 1000000;
+    return Math.floor((from - to) / oneDayInMiliseconds);
+}
