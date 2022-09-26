@@ -1,17 +1,17 @@
 [
     {
-        "date": "2022-04-23",
+        "date": "04-23",
         "name": "Dia de São Jorge",
         "type": "estadual"
     },
     {
-        "date": "2022-10-17",
+        "date": "10-17",
         "name": "Dia do Comércio",
         "type": "estadual",
         "comment": "Terceira segunda-feira de outubro"
     },
     {
-        "date": "2022-11-20",
+        "date": "11-20",
         "name": "Dia da Consciência Negra",
         "type": "estadual"
     }

@@ -2,7 +2,9 @@
 
     const name = document.getElementById('name');
     const date = document.getElementById('date');
+    const daysRemaining = document.getElementById('daysRemaining');
     const stateSelection = document.getElementById('state');
+
     const starterDate = new Date();
     const currentDay = starterDate.getDate().toString().padStart(2, "0");
     const currentMonth = (starterDate.getMonth() + 1).toString().padStart(2, "0");
@@ -33,6 +35,19 @@
                             break
                         }
                     }
+
+            const projectURL = 'https://carolsvntos.github.io/proximo-feriado'
+            const stateSelection = document.getElementById('state');
+
+            stateSelection.addEventListener('change', (e) => {
+                const selectedState = stateSelection.value;
+                if(selectedState !== 'all') {
+                    fetch(`${projectURL}/assets/data/${selectedState}.json`)
+                    .then((response) => response.json())
+                    .then((json) =>
+                        console.log(json[0].name)
+                    );
+                    
                 }
                 updateHoliday();
 
@@ -72,13 +87,29 @@
                 errorMessage.textContent = `Gah, it's not working!`
                 app.appendChild(errorMessage)
                 
+                if (comparisonDate >= today) {
+                    const nextHoliday = {
+                        name: holidays[i].name,
+                        date: new Date(comparisonDate),
+                        formattedDate: holidays[i].date.split("-").reverse().join("/"),
+                        class: holidays[i].name.toLowerCase().split(' ').join('-'),
+                    };
+
+                    document.body.classList.add(nextHoliday.class);
+                    document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
+                    name.innerHTML = nextHoliday.name;
+                    date.innerHTML = nextHoliday.formattedDate;
+                    daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
+
+                    break
+                }
             }
         }
         request.send()
             
+  const countDays = (from, to) => {
+    const oneDayInMiliseconds =  24 * 60 * 60 * 1000000;
+    return Math.floor((from - to) / oneDayInMiliseconds);
+}                
+                        
 })();
-                        
-                        
-
-
-
