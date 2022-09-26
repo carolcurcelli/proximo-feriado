@@ -1,16 +1,16 @@
 <div align="center">
   <img src="https://img.shields.io/github/languages/code-size/carolsvntos/proximo-feriado">
-  <img src="https://img.shields.io/website?url=https%3A%2F%2Fcarolsvntos.github.io%2Fproximo-feriado%2F">
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fqualproximoferiado.com.br/%2F">
   <img src="https://img.shields.io/github/stars/carolsvntos/proximo-feriado?style=social">
   <img src="https://img.shields.io/twitter/follow/carolsvntos?style=social">
   <br /><br /><br /><br />
 </div>
 <div align="center">
-  <img src="https://carolsvntos.github.io/proximo-feriado/assets/img/favicon.png" width="200">
+  <img src="https://qualproximoferiado.com.br/assets/img/favicon.png" width="200">
   <h1 align="center">Próximo Feriado</h3>
   <p>Próximo Feriado é um projeto que informa qual o próximo feriado nacional no Brasil</p>
   <p>
-    <a href="https://carolsvntos.github.io/proximo-feriado/">Confira aqui!</a>
+    <a href="https://qualproximoferiado.com.br/">Confira aqui!</a>
     ·
     <a href="https://github.com/carolsvntos/proximo-feriado/issues">Report Bug</a>
     ·
