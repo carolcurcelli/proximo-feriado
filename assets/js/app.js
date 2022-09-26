@@ -2,9 +2,8 @@
 
     const name = document.getElementById('name');
     const date = document.getElementById('date');
-    const daysRemaining = document.getElementById('daysRemaining');
     const stateSelection = document.getElementById('state');
-
+    const daysRemaining = document.getElementById('daysRemaining');
     const starterDate = new Date();
     const currentDay = starterDate.getDate().toString().padStart(2, "0");
     const currentMonth = (starterDate.getMonth() + 1).toString().padStart(2, "0");
@@ -26,35 +25,36 @@
                         today = parseInt(today);
 
                         if (comparisonDate >= today) {
-                            let holidayDate = holidays[i].date.split("-").reverse().join("/");
-                            let holidayClass = holidays[i].name.toLowerCase().split(' ').join('-');
-                            document.body.className = `holiday ${holidayClass}`;
-                            document.title = `O Próximo Feriado Nacional é ${holidays[i].name}`
-                            name.innerHTML = holidays[i].name;
-                            date.innerHTML = holidayDate;
+                            const nextHoliday = {
+                                name: holidays[i].name,
+                                date: new Date(holidays[i].date),
+                                formattedDate: holidays[i].date.split("-").reverse().join("/"),
+                                class: holidays[i].name.toLowerCase().split(' ').join('-'),
+                            };
+                            
+                            const countDays = (date1, date2) => {
+                                const oneDayInMiliseconds =  24 * 60 * 60 * 1000000;
+                                const differenceInTime = date2.getTime() - date1.getTime();
+                                return Math.floor(differenceInTime / (1000 * 3600 * 24)) + 1;
+;
+                            }
+                            
+                            document.body.className = `holiday ${nextHoliday.class}`
+                            document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
+                            name.innerHTML = nextHoliday.name;
+                            date.innerHTML = nextHoliday.formattedDate;
+                            daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
+
+
                             break
                         }
                     }
-
-            const projectURL = 'https://carolsvntos.github.io/proximo-feriado'
-            const stateSelection = document.getElementById('state');
-
-            stateSelection.addEventListener('change', (e) => {
-                const selectedState = stateSelection.value;
-                if(selectedState !== 'all') {
-                    fetch(`${projectURL}/assets/data/${selectedState}.json`)
-                    .then((response) => response.json())
-                    .then((json) =>
-                        console.log(json[0].name)
-                    );
-                    
                 }
                 updateHoliday();
 
                 stateSelection.addEventListener('change', (e) => {
                     const projectURL = 'https://carolsvntos.github.io/proximo-feriado'
                     const selectedState = stateSelection.value;
-                    if(selectedState !== 'all') {
                         fetch(`${projectURL}/assets/data/${selectedState}.json`)
                         .then((response) => response.json())
                         .then((json) => {
@@ -77,8 +77,8 @@
                             });
                             updateHoliday();
                         });
+                        console.log(`${projectURL}/assets/data/${selectedState}.json`)
                         console.log(holidays)
-                    }
                 });
                     
         
@@ -87,29 +87,11 @@
                 errorMessage.textContent = `Gah, it's not working!`
                 app.appendChild(errorMessage)
                 
-                if (comparisonDate >= today) {
-                    const nextHoliday = {
-                        name: holidays[i].name,
-                        date: new Date(comparisonDate),
-                        formattedDate: holidays[i].date.split("-").reverse().join("/"),
-                        class: holidays[i].name.toLowerCase().split(' ').join('-'),
-                    };
-
-                    document.body.classList.add(nextHoliday.class);
-                    document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
-                    name.innerHTML = nextHoliday.name;
-                    date.innerHTML = nextHoliday.formattedDate;
-                    daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
-
-                    break
-                }
             }
         }
         request.send()
             
-  const countDays = (from, to) => {
-    const oneDayInMiliseconds =  24 * 60 * 60 * 1000000;
-    return Math.floor((from - to) / oneDayInMiliseconds);
-}                
-                        
 })();
+                        
+                        
+

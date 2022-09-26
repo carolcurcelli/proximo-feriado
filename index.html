@@ -13,7 +13,7 @@
     <body>
         <section class="holiday__wrapper">
             <article class="holiday__message">
-                <select name="state" class="state-select" id="state" style="display: none">
+                <select name="state" class="state-select" id="state">
                     <option value="all">Feriados nacionais</option>
                     <option value="acre">Acre</option>
                     <option value="alagoas">Alagoas</option>
@@ -41,14 +41,13 @@
                     <option value="santa-catarina">Santa Catarina</option>
                     <option value="sao-paulo">São Paulo</option>
                     <option value="sergipe">Sergipe</option>
-                    <option value="socantins">Tocantins</option>
+                    <option value="tocantins">Tocantins</option>
                 </select>
                 <h1>
                     O próximo feriado <span id="type"></span> é
                     <span id="name"></span>
                 </h1>
-                <div>dia <span id="date"></span></div>
-                <div>faltam <span id="daysRemaining"></span></div>
+                <div>no dia <span id="date"></span>, daqui <span id="daysRemaining"></span> dias</div>
             </article>
         </section>
         <section class="disclaimer">
