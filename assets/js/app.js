@@ -60,7 +60,7 @@
                 updateHoliday();
 
                 stateSelection.addEventListener('change', (e) => {
-                    const projectURL = 'https://carolsvntos.github.io/proximo-feriado'
+                    const projectURL = 'https://qualproximoferiado.com.br/'
                     const selectedState = stateSelection.value;
                     fetch(`${projectURL}/assets/data/${selectedState}.json`)
                         .then((response) => response.json())
