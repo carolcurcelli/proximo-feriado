@@ -2,6 +2,7 @@
 
     const name = document.getElementById('name');
     const date = document.getElementById('date');
+    const type = document.getElementById('type');
     const stateSelection = document.getElementById('state');
     const daysRemaining = document.getElementById('daysRemaining');
     const starterDate = new Date();
@@ -45,7 +46,6 @@
                             date.innerHTML = nextHoliday.formattedDate;
                             daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
 
-                            console.log(nextHoliday.type);
                             if (nextHoliday.type == 'estadual') {
                                 const randomNumber = Math.floor(Math.random() * 6)
                                 document.body.style.backgroundImage = `url('assets/img/holiday${randomNumber}.jpg')`;
@@ -83,10 +83,10 @@
                                 if (a.date < b.date) {
                                     return -1;
                                 }
-                                // a must be equal to b
                                 return 0;
                             });
-
+                            const [option] = e.target.selectedOptions;
+                            type.innerHTML = option.dataset.label;
                             updateHoliday();
                         });
                     
