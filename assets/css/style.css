@@ -98,7 +98,7 @@ h1 {
 /* BACKGROUNDS */
 
 .holiday {
-    background-image: url('../../assets/img/holiday.jpg');
+    background-image: url('../../assets/img/holiday0.jpg');
     color: #000000;
 }
 
@@ -106,12 +106,12 @@ h1 {
     color: #9a8d87;
 }
 
-.holiday.ano-novo {
+.holiday.confraternização-mundial {
     background-image: url('../../assets/img/ano-novo.jpg');
     color: #ffffff;
 }
 
-.ano-novo .githubCorner {
+.confraternização-mundial .githubCorner {
     color: #2d142a;
 }
 
