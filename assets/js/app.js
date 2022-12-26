@@ -10,9 +10,17 @@
     const currentMonth = (starterDate.getMonth() + 1).toString().padStart(2, "0");
     const currentYear = starterDate.getFullYear();
     let today = currentYear + currentMonth + currentDay;
+    let feriadoAPI = '';
+    const christmas =  new Date(`${currentYear}-12-25`);
+
+        if (starterDate <= christmas){
+            feriadoAPI = `https://brasilapi.com.br/api/feriados/v1/${currentYear}`
+        } else {
+            feriadoAPI = `https://brasilapi.com.br/api/feriados/v1/${currentYear + 1}`;
+        }
 
         const request = new XMLHttpRequest()
-        request.open('GET', `https://brasilapi.com.br/api/feriados/v1/${currentYear}`, true)
+        request.open('GET', `${feriadoAPI}`, true)
         request.onload = function() {
             const url = JSON.parse(this.response)
             if (request.status >= 200 && request.status < 400) {
