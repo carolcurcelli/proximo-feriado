@@ -12,6 +12,7 @@
     let today = currentYear + currentMonth + currentDay;
     let feriadoAPI = '';
     const christmas =  new Date(`${currentYear}-12-25`);
+    const weekDays = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sábado"];
 
         if (starterDate <= christmas){
             feriadoAPI = `https://brasilapi.com.br/api/feriados/v1/${currentYear}`
@@ -34,9 +35,11 @@
                         today = parseInt(today);
 
                         if (comparisonDate >= today) {
+                            const day = new Date(holidays[i].date);
                             const nextHoliday = {
                                 name: holidays[i].name,
-                                date: new Date(holidays[i].date),
+                                date: day,
+                                weekDay: weekDays[day.getDay()],
                                 type: holidays[i].type,
                                 formattedDate: holidays[i].date.split("-").reverse().join("/"),
                                 class: holidays[i].name.toLowerCase().split(' ').join('-'),
@@ -51,7 +54,7 @@
                             document.body.className = `holiday ${nextHoliday.class}`
                             document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
                             name.innerHTML = nextHoliday.name;
-                            date.innerHTML = nextHoliday.formattedDate;
+                            date.innerHTML = `${nextHoliday.formattedDate}(${nextHoliday.weekDay})`;
                             daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
 
                             if (nextHoliday.type == 'estadual') {
