@@ -34,9 +34,11 @@
                         today = parseInt(today);
 
                         if (comparisonDate >= today) {
+                            const day = new Date(holidays[i].date);
                             const nextHoliday = {
                                 name: holidays[i].name,
-                                date: new Date(holidays[i].date),
+                                date: day,
+                                weekDay: new Intl.DateTimeFormat("pt-BR", { dateStyle: 'full', timeZone: 'GMT' }).format(day),
                                 type: holidays[i].type,
                                 formattedDate: holidays[i].date.split("-").reverse().join("/"),
                                 class: holidays[i].name.toLowerCase().split(' ').join('-'),
@@ -51,7 +53,7 @@
                             document.body.className = `holiday ${nextHoliday.class}`
                             document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
                             name.innerHTML = nextHoliday.name;
-                            date.innerHTML = nextHoliday.formattedDate;
+                            date.innerHTML = `${nextHoliday.weekDay}`;
                             daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
 
                             if (nextHoliday.type == 'estadual') {
