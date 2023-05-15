@@ -39,7 +39,7 @@
                             const nextHoliday = {
                                 name: holidays[i].name,
                                 date: day,
-                                weekDay: weekDays[day.getDay()],
+                                weekDay: new Intl.DateTimeFormat("pt-BR", { weekday: "long" }).format(day),
                                 type: holidays[i].type,
                                 formattedDate: holidays[i].date.split("-").reverse().join("/"),
                                 class: holidays[i].name.toLowerCase().split(' ').join('-'),
