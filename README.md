@@ -30,8 +30,9 @@
   <h2>Metas</h2>
 </div>
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/1522117/189207277-f7ab57f4-a5a4-43f0-88c7-7dd134d627db.png" width="700">
+  <img src="https://user-images.githubusercontent.com/1522117/272595204-86ef85dc-5a89-459a-9fc6-f23773656430.png" width="700">
   <br /><br /><br /><br />
+
 </div>
 
 - [x] Trazer nome e data do próximo feriado nacional
