@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="https://img.shields.io/github/languages/code-size/carolsvntos/proximo-feriado">
+  <img src="https://img.shields.io/github/languages/code-size/carolcurcelli/proximo-feriado">
   <img src="https://img.shields.io/website?url=https%3A%2F%2Fqualproximoferiado.com.br/%2F">
-  <img src="https://img.shields.io/github/stars/carolsvntos/proximo-feriado?style=social">
-  <img src="https://img.shields.io/twitter/follow/carolsvntos?style=social">
+  <img src="https://img.shields.io/github/stars/carolcurcelli/proximo-feriado?style=social">
+  <img src="https://img.shields.io/twitter/follow/carolcurcelli?style=social">
   <br /><br /><br /><br />
 </div>
 <div align="center">
@@ -12,11 +12,11 @@
   <p>
     <a href="https://qualproximoferiado.com.br/">Confira aqui!</a>
     ·
-    <a href="https://github.com/carolsvntos/proximo-feriado/issues">Report Bug</a>
+    <a href="https://github.com/carolcurcelli/proximo-feriado/issues">Report Bug</a>
     ·
-    <a href="https://github.com/carolsvntos/proximo-feriado/issues">Request Feature</a>
+    <a href="https://github.com/carolcurcelli/proximo-feriado/issues">Request Feature</a>
     ·
-    <a href="https://github.com/carolsvntos/proximo-feriado/blob/master/LICENSE.md">License</a>
+    <a href="https://github.com/carolcurcelli/proximo-feriado/blob/master/LICENSE.md">License</a>
   </p>
 </div>
 <div align="center">
