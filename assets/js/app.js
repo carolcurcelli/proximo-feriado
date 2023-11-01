@@ -33,7 +33,7 @@
                         const comparisonDate = parseInt(holidays[i]?.date.replace(/[^a-zA-Z0-9 ]/g, ''));
                         today = parseInt(today);
 
-                        if (comparisonDate >= today) {
+                        if (comparisonDate > today) {
                             const day = new Date(holidays[i].date);
                             const nextHoliday = {
                                 name: holidays[i].name,
@@ -54,7 +54,7 @@
                             document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
                             name.innerHTML = nextHoliday.name;
                             date.innerHTML = `${nextHoliday.weekDay}`;
-                            daysRemaining.innerHTML = countDays(starterDate, nextHoliday.date)
+                            daysRemaining.innerHTML = `daqui ${countDays(starterDate, nextHoliday.date)} dia${countDays(starterDate, nextHoliday.date) > 1 ? 's' : ''}`
 
                             if (nextHoliday.type == 'estadual') {
                                 const randomNumber = Math.floor(Math.random() * 6)
