@@ -117,6 +117,7 @@ h1 {
 
 .holiday.carnaval {
     background-image: url('../../assets/img/carnaval.jpg');
+    color: #ffffff;
 }
 
 .carnaval .githubCorner {
@@ -132,11 +133,12 @@ h1 {
     color: #7e5e1d;
 }
 
-.holiday.pascoa {
+.holiday.páscoa {
     background-image: url('../../assets/img/pascoa.jpg');
+    background-position: bottom;
 }
 
-.pascoa .githubCorner {
+.páscoa .githubCorner {
     color: #0067a9;
 }
 
@@ -166,13 +168,13 @@ h1 {
     color: #232122;
 }
 
-.holiday.independencia-do-brasil {
+.holiday.independência-do-brasil {
     background-image: url('../../assets/img/independencia-do-brasil.jpg');
     background-position: 50% 65%;
     color: #ffffff;
 }
 
-.independencia-do-brasil .githubCorner {
+.independência-do-brasil .githubCorner {
     color: #8c9199;
 }
 
@@ -194,11 +196,11 @@ h1 {
     color: #80807a;
 }
 
-.holiday.proclamacao-da-republica {
+.holiday.proclamação-da-república {
     background-image: url('../../assets/img/proclamacao-da-republica.jpg');
 }
 
-.proclamacao-da-republica .githubCorner {
+.proclamação-da-república .githubCorner {
     color: #e3eeff;
 }
 

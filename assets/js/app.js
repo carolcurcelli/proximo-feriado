@@ -51,8 +51,8 @@
                             }
                             
                             document.body.className = `holiday ${nextHoliday.class}`
-                            document.title = `O Próximo Feriado Nacional é ${nextHoliday.name}`
-                            name.innerHTML = nextHoliday.name;
+                            document.title = `O Próximo Feriado Nacional é ${nextHoliday.name === 'Confraternização mundial' ? 'Ano Novo' : nextHoliday.name}`
+                            name.innerHTML = nextHoliday.name === 'Confraternização mundial' ? 'Ano Novo' : nextHoliday.name;
                             date.innerHTML = `${nextHoliday.weekDay}`;
                             daysRemaining.innerHTML = `daqui ${countDays(starterDate, nextHoliday.date)} dia${countDays(starterDate, nextHoliday.date) > 1 ? 's' : ''}`
 
