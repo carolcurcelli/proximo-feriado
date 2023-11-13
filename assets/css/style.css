@@ -80,10 +80,6 @@ h1 {
     40%,80%{transform:rotate(10deg)}
 }
 
-.githubCorner {
-    fill: rgb(211, 155, 192);
-}
-
 .state-select {
     color: inherit;
     font-size: .9rem;
@@ -102,17 +98,9 @@ h1 {
     color: #000000;
 }
 
-.holiday .githubCorner {
-    color: #9a8d87;
-}
-
 .holiday.confraternização-mundial {
     background-image: url('../../assets/img/ano-novo.jpg');
     color: #ffffff;
-}
-
-.confraternização-mundial .githubCorner {
-    color: #2d142a;
 }
 
 .holiday.carnaval {
@@ -120,17 +108,9 @@ h1 {
     color: #ffffff;
 }
 
-.carnaval .githubCorner {
-    color: #e3e0d7;
-}
-
 .holiday.sexta-feira-santa {
     background-image: url('../../assets/img/sexta-feira-santa.jpg');
     color: #ffffff;
-}
-
-.sexta-feira-santa .githubCorner {
-    color: #7e5e1d;
 }
 
 .holiday.páscoa {
@@ -138,24 +118,12 @@ h1 {
     background-position: bottom;
 }
 
-.páscoa .githubCorner {
-    color: #0067a9;
-}
-
 .holiday.tiradentes {
     background-image: url('../../assets/img/tiradentes.jpg');
 }
 
-.tiradentes .githubCorner {
-    color: #3d4700;
-}
-
 .holiday.dia-do-trabalho {
     background-image: url('../../assets/img/dia-do-trabalho.jpg');
-}
-
-.dia-do-trabalho .githubCorner {
-    color: #3498db;
 }
 
 .holiday.corpus-christi {
@@ -164,18 +132,10 @@ h1 {
     color: #ffffff;
 }
 
-.corpus-christi .githubCorner {
-    color: #232122;
-}
-
 .holiday.independência-do-brasil {
     background-image: url('../../assets/img/independencia-do-brasil.jpg');
     background-position: 50% 65%;
     color: #ffffff;
-}
-
-.independência-do-brasil .githubCorner {
-    color: #8c9199;
 }
 
 .holiday.nossa-senhora-aparecida {
@@ -183,32 +143,16 @@ h1 {
     color: #ffffff;
 }
 
-.nossa-senhora-aparecida .githubCorner {
-    color: #131112;
-}
-
 .holiday.finados {
     background-image: url('../../assets/img/finados.jpg');
     background-position: center;
-}
-
-.finados .githubCorner {
-    color: #80807a;
 }
 
 .holiday.proclamação-da-república {
     background-image: url('../../assets/img/proclamacao-da-republica.jpg');
 }
 
-.proclamação-da-república .githubCorner {
-    color: #e3eeff;
-}
-
 .holiday.natal {
     background-image: url('../../assets/img/natal.jpg');
     color: #ffffff;
-}
-
-.natal .githubCorner {
-    color: #352e1d;
 }
