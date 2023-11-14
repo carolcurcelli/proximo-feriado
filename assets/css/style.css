@@ -1,6 +1,8 @@
 body {
     background-size: cover;
     font-family: 'Roboto', sans-serif;
+    height: 90vh;
+    max-height: 100vh;
 }
 
 a {
