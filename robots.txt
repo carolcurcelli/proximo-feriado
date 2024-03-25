@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Allow: /
+Sitemap: https://qualproximoferiado.com.br/sitemap.xml
