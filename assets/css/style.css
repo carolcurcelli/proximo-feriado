@@ -1,7 +1,7 @@
 body {
     background-size: cover;
     font-family: 'Roboto', sans-serif;
-    height: 90vh;
+    height: 100vh;
     max-height: 100vh;
 }
 
@@ -15,6 +15,7 @@ a {
     align-items: center;
     justify-content: center;
     min-height: 100%;
+    flex-direction: column;
 }
 
 .holiday__message {
@@ -24,7 +25,7 @@ a {
     border-radius: 4px;
     box-shadow: 0 26px 42px rgb(207 158 158 / 10%);
     padding: 2em;
-    margin: 1.5em 1.5em 5em;
+    margin: 1.5em;
 }
 
 h1 {
@@ -80,6 +81,12 @@ h1 {
     40%,80%{transform:rotate(10deg)}
 }
 
+.sharethis-title {
+    font-size: .8em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
 .state-select {
     color: inherit;
     font-size: .9rem;
@@ -96,6 +103,7 @@ h1 {
 .holiday {
     background-image: url('../../assets/img/holiday0.jpg');
     color: #000000;
+    background-size: cover;
 }
 
 .holiday.confraternização-mundial {
