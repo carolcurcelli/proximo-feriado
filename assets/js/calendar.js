@@ -116,7 +116,7 @@
                             let i = 0;
                             while (i < json.length) {
                                 if (json[i].slug === selectedState) {
-                                    document.body.className = json[i].slug;
+                                    document.body.className = selectedState;
                                     author.innerHTML = `Fotografia por <a href="${json[i].url}">${json[i].author}</a>`
                                     break
                                 }

@@ -115,7 +115,7 @@ h1 {
 
 /* BACKGROUNDS */
 
-.holiday {
+.holiday, .all {
     background-image: url('../../assets/img/holiday5.jpg');
     color: #000000;
     background-size: cover;
