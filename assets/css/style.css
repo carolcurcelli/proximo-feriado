@@ -29,6 +29,10 @@ a {
     height: 7em;
 }
 
+.sharethis__wrapper {
+    height: 4em;
+}
+
 h1 {
     font-weight: 400;   
 }
