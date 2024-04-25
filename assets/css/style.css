@@ -26,11 +26,21 @@ a {
     box-shadow: 0 26px 42px rgb(207 158 158 / 10%);
     padding: 2em;
     margin: 1.5em;
-    height: 7em;
+    height: 9em;
+}
+
+.holiday__message div {
+    margin-bottom:1em;
 }
 
 .sharethis__wrapper {
     height: 4em;
+}
+
+.calendar_link {
+    color: inherit;
+    text-decoration: underline;
+    font-size: .85rem;
 }
 
 h1 {
@@ -106,7 +116,7 @@ h1 {
 /* BACKGROUNDS */
 
 .holiday {
-    background-image: url('../../assets/img/holiday0.jpg');
+    background-image: url('../../assets/img/holiday5.jpg');
     color: #000000;
     background-size: cover;
 }
@@ -168,4 +178,174 @@ h1 {
 .holiday.natal {
     background-image: url('../../assets/img/natal.jpg');
     color: #ffffff;
+}
+
+/* CALENDAR */
+
+.calendar .holiday__message {
+    width: 90vw;
+    height: 100%;
+}
+
+.calendar_list {
+    text-align: left;
+    margin:  1em auto;
+}
+
+.calendar_list th {
+    font-weight: bold;
+}
+
+.calendar_list th, .calendar_list td {
+    padding: .1em .2em;
+    border: solid 1px;
+}
+
+.calendar td:nth-child(4) {
+    text-transform: capitalize;
+}
+
+.calendar .holiday__message {
+    background-color: ;
+    filter: grayscale(40%);
+    background-color: #ffffff4f;
+    backdrop-filter: blur(22px);
+    width: 100%;
+    max-width: 50em;
+    min-width: 10vw;
+}
+
+.acre {
+    background-image: url('../../assets/img/acre.jpg');
+    background-position: center;
+}
+
+.alagoas {
+    background-image: url('../../assets/img/alagoas.jpg');
+    background-position: center;
+}
+
+.amapa {
+    background-image: url('../../assets/img/amapa.jpg');
+    background-position: center;
+}
+
+.amazonas {
+    background-image: url('../../assets/img/amazonas.jpg');
+    background-position: center;
+}
+
+.bahia {
+    background-image: url('../../assets/img/bahia.jpg');
+    background-position: center;
+}
+
+.ceara {
+    background-image: url('../../assets/img/ceara.jpg');
+    background-position: center;
+}
+
+.distrito-federal {
+    background-image: url('../../assets/img/distrito-federal.jpg');
+    background-position: center;
+}
+
+.espirito-santo {
+    background-image: url('../../assets/img/espirito-santo.jpg');
+    background-position: center;
+}
+
+.goias {
+    background-image: url('../../assets/img/goias.jpg');
+    background-position: center;
+}
+
+.maranhao {
+    background-image: url('../../assets/img/maranhao.jpg');
+    background-position: center;
+}
+
+.mato-grosso {
+    background-image: url('../../assets/img/mato-grosso.jpg');
+    background-position: center;
+}
+
+.mato-grosso-do-sul {
+    background-image: url('../../assets/img/mato-grosso-do-sul.jpg');
+    background-position: center;
+}
+
+.minas-gerais {
+    background-image: url('../../assets/img/minas-gerais.jpg');
+    background-position: center;
+}
+
+.para {
+    background-image: url('../../assets/img/para.jpg');
+    background-position: center;
+}
+
+.paraiba {
+    background-image: url('../../assets/img/paraiba.jpg');
+    background-position: center;
+}
+
+.parana {
+    background-image: url('../../assets/img/parana.jpg');
+    background-position: 0 35%;
+}
+
+.pernambuco {
+    background-image: url('../../assets/img/pernambuco.jpg');
+    background-position: center;
+}
+
+.piaui {
+    background-image: url('../../assets/img/piaui.jpg');
+    background-position: center;
+}
+
+.rio-de-janeiro {
+    background-image: url('../../assets/img/rio-de-janeiro.jpg');
+    background-position: center;
+}
+
+.rio-grande-do-norte {
+    background-image: url('../../assets/img/rio-grande-do-norte.jpg');
+    background-position: center;
+}
+
+.rio-grande-do-sul {
+    background-image: url('../../assets/img/rio-grande-do-sul.jpg');
+    background-position: center;
+}
+
+.rondonia {
+    background-image: url('../../assets/img/rondonia.jpg');
+    background-position: center;
+}
+
+.roraima {
+    background-image: url('../../assets/img/roraima.jpg');
+    background-position: center;
+}
+
+.santa-catarina {
+    background-image: url('../../assets/img/santa-catarina.jpg');
+    background-position: center;
+}
+
+.sao-paulo {
+    background-image: url('../../assets/img/sao-paulo.jpg');
+    background-position: center;
+}
+
+.sergipe {
+    background-image: url('../../assets/img/sergipe.jpg');
+    background-position: center;
+}
+
+.tocantins {
+    background-image: url('../../assets/img/tocantins.jpg');
+    background-position: center;
 }

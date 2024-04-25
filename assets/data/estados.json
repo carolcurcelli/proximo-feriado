@@ -2,189 +2,189 @@
     {
         "slug": "acre",
         "name": "Acre",
-        "photo": "'../../assets/img/acre.jpg'",
+        "photo": "../../assets/img/acre.jpg",
         "author": "Allice Hunter",
         "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
     },
     {
         "slug": "alagoas",
         "name": "Alagoas",
-        "photo": "'../../assets/img/alagoas.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/alagoas.jpg",
+        "author": "Mattuta",
+        "url": "https://pt.wikipedia.org/wiki/Macei%C3%B3#/media/Ficheiro:Panoramica_do_Porto_de_Jaragu%C3%A1_Macei%C3%B3_Alagoas.jpg"
     },
     {
         "slug": "amapa",
         "name": "Amapá",
-        "photo": "'../../assets/img/amapa.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/amapa.jpg",
+        "author": "Alécio Cezar",
+        "url": "https://pt.wikipedia.org/wiki/Macap%C3%A1#/media/Ficheiro:Guarita_da_Fortaleza_de_S%C3%A3o_Jos%C3%A9_de_Macap%C3%A1.JPG"
     },
     {
         "slug": "amazonas",
         "name": "Amazonas",
-        "photo": "'../../assets/img/amazonas.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/amazonas.jpg",
+        "author": "Ivo Brasil",
+        "url": "https://pt.wikipedia.org/wiki/Manaus#/media/Ficheiro:Amazon_Theatre_in_Brazil.jpg"
     },
     {
         "slug": "bahia",
         "name": "Bahia",
-        "photo": "'../../assets/img/bahia.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/bahia.jpg",
+        "author": "Matti Blume",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Largo_do_Pelourinho,_Salvador_20150719-DSC05452.JPG"
     },
     {
         "slug": "ceara",
         "name": "Ceará",
-        "photo": "'../../assets/img/ceara.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/ceara.jpg",
+        "author": "Nakinn",
+        "url": "https://pt.wikipedia.org/wiki/Fortaleza#/media/Ficheiro:Santa_Casa_de_Miseric%C3%B3rdia_de_Fortaleza.png"
     },
     {
         "slug": "distrito-federal",
         "name": "Distrito Federal",
-        "photo": "'../../assets/img/distrito-federal.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/distrito-federal.jpg",
+        "author": "Cayambe",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Memorial_J_Kubitschek_Brasilia_2009.jpg"
     },
     {
         "slug": "espirito-santo",
         "name": "Espírito Santo",
-        "photo": "'../../assets/img/espirito-santo.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/espirito-santo.jpg",
+        "author": "Webysther Nunes",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Webysther_20131027155223_-_Ilha_do_Boi.jpg"
     },
     {
         "slug": "goias",
         "name": "Goiás",
-        "photo": "'../../assets/img/goias.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/goias.jpg",
+        "author": "Jdaviid28",
+        "url": "https://pt.wikipedia.org/wiki/Goi%C3%A1s#/media/Ficheiro:Actitud.JPG"
     },
     {
         "slug": "maranhao",
         "name": "Maranhão",
-        "photo": "'../../assets/img/maranhao.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/maranhao.jpg",
+        "author": "Cristiano Quintino",
+        "url": "https://pt.wikipedia.org/wiki/Maranh%C3%A3o#/media/Ficheiro:Vista_5_dos_Len%C3%A7ois_Maranhenses.jpg"
     },
     {
         "slug": "mato-grosso",
         "name": "Mato Grosso",
-        "photo": "'../../assets/img/mato-grosso.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/mato-grosso.jpg",
+        "author": "Filipe Frazao",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Pantanal_Mato_Grosso_Brasil.jpg"
     },
     {
         "slug": "mato-grosso-do-sul",
         "name": "Mato Grosso do Sul",
-        "photo": "'../../assets/img/mato-grosso-do-sul.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/mato-grosso-do-sul.jpg",
+        "author": "Rodrigo Lobato",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Pantanal_Sul-Matogrossense.JPG"
     },
     {
         "slug": "minas-gerais",
         "name": "Minas Gerais",
-        "photo": "'../../assets/img/minas-gerais.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/minas-gerais.jpg",
+        "author": "Daniel Raposo",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Olhar_sobre_a_Lagoa_da_Pampulha.jpg"
     },
     {
         "slug": "para",
         "name": "Pará",
-        "photo": "'../../assets/img/para.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/para.jpg",
+        "author": "Celso Abreu",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Pal%C3%A1cio_Lauro_Sodr%C3%A9_(2916166107).jpg"
     },
     {
         "slug": "paraiba",
         "name": "Paraíba",
-        "photo": "'../../assets/img/paraiba.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/paraiba.jpg",
+        "author": "Marcos Elias de Oliveira Júnior",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Mausol%C3%A9u_de_Jo%C3%A3o_Pessoa,_Jo%C3%A3o_Pessoa_(PB).jpg"
     },
     {
         "slug": "parana",
         "name": "Paraná",
-        "photo": "'../../assets/img/parana.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/parana.jpg",
+        "author": "Rodrigo Argenton",
+        "url": "https://pt.wikipedia.org/wiki/Curitiba#/media/Ficheiro:Estufa_principal_do_Jardim_Bot%C3%A2nico_de_Curitiba_02_(cropped).jpg"
     },
     {
         "slug": "pernambuco",
         "name": "Pernambuco",
-        "photo": "'../../assets/img/pernambuco.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/pernambuco.jpg",
+        "author": "Wilfredor",
+        "url": "https://pt.wikipedia.org/wiki/Recife#/media/Ficheiro:Panoramic_view_of_Recife.jpg"
     },
     {
         "slug": "piaui",
         "name": "Piauí",
-        "photo": "'../../assets/img/piaui.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/piaui.jpg",
+        "author": "Almanaque Lusofonista",
+        "url": "https://pt.wikipedia.org/wiki/Teresina#/media/Ficheiro:ZOO_Teresina_PI.JPG"
     },
     {
         "slug": "rio-de-janeiro",
         "name": "Rio de Janeiro",
-        "photo": "'../../assets/img/rio-de-janeiro.jpg'",
-        "author": "Allice Hunter",
+        "photo": "../../assets/img/rio-de-janeiro.jpg",
+        "author": "Chensiyuan",
         "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
     },
     {
         "slug": "rio-grande-do-norte",
         "name": "Rio Grande do Norte",
-        "photo": "'../../assets/img/rio-grande-do-norte.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/rio-grande-do-norte.jpg",
+        "author": "Allan Patrick",
+        "url": "https://pt.wikipedia.org/wiki/Rio_Grande_do_Norte#/media/Ficheiro:Lajedo_de_Soledade.jpg"
     },
     {
         "slug": "rio-grande-do-sul",
         "name": "Rio Grande do Sul",
-        "photo": "'../../assets/img/rio-grande-do-sul.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/rio-grande-do-sul.jpg",
+        "author": "Lechatjaune",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Moinho_A%C3%A7oriano_Parc%C3%A3o_03.JPG"
     },
     {
         "slug": "rondonia",
         "name": "Rondônia",
-        "photo": "'../../assets/img/rondonia.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/rondonia.jpg",
+        "author": "Wilson Dias",
+        "url": "https://pt.wikipedia.org/wiki/Porto_Velho#/media/Ficheiro:Portovelho11062007.JPG"
     },
     {
         "slug": "roraima",
         "name": "Roraima",
-        "photo": "'../../assets/img/roraima.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/roraima.jpg",
+        "author": "Roosevelt Pinheiro",
+        "url": "https://pt.wikipedia.org/wiki/Roraima#/media/Ficheiro:Raposa_sol.JPG"
     },
     {
         "slug": "santa-catarina",
         "name": "Santa Catarina",
-        "photo": "'../../assets/img/santa-catarina.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/santa-catarina.jpg",
+        "author": "Jodejau",
+        "url": "https://pt.wikipedia.org/wiki/Balneário_Camboriú#/media/Ficheiro:Vista_aérea_praia_do_Buraco.jpg"
     },
     {
         "slug": "sao-paulo",
         "name": "São Paulo",
-        "photo": "'../../assets/img/sao-paulo.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/sao-paulo.jpg",
+        "author": "Anderson Riedel",
+        "url": "https://pt.wikipedia.org/wiki/Ficheiro:Ponte_Estaiada_e_CENU.jpg"
     },
     {
         "slug": "sergipe",
         "name": "Sergipe",
-        "photo": "'../../assets/img/sergipe.jpg'",
-        "author": "Allice Hunter",
-        "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
+        "photo": "../../assets/img/sergipe.jpg",
+        "author": "Berenice Kauffmann Abud",
+        "url": "https://pt.wikipedia.org/wiki/Sergipe#/media/Ficheiro:Vis%C3%A3o_da_Pra%C3%A7a_S%C3%A3o_Francisco.jpg"
     },
     {
         "slug": "tocantins",
         "name": "Tocantins",
-        "photo": "'../../assets/img/tocantins.jpg'",
+        "photo": "../../assets/img/tocantins.jpg",
         "author": "Allice Hunter",
         "url": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ad%C3%A3o_da_Gameleira,_Rio_Branco_Acre_(cropped).jpg"
     }

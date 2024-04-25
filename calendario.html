@@ -34,8 +34,8 @@
         crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=66017fa388484200124fca60&product=inline-share-buttons&source=platform" async="async"></script>
     </head>
-    <body>
-        <section class="holiday__wrapper">
+    <body class="holiday">
+        <section class="holiday__wrapper calendar">
             <article class="holiday__message">
                 <select name="state" class="state-select" id="state">
                     <option value="all" data-label="nacional">Feriados nacionais</option>
@@ -67,12 +67,15 @@
                     <option value="sergipe" data-label="no estado do Sergipe">Sergipe</option>
                     <option value="tocantins" data-label="no estado do Tocantins">Tocantins</option>
                 </select>
-                <h1>
-                    O próximo feriado <span id="type">nacional</span> é
-                    <span id="name"></span>
+                <h1 id="name">
+                    Calendário de feriados
                 </h1>
-                <div><span id="date"></span>, <span id="daysRemaining"></span></div>
-                <p><a href="/calendario" class="calendar_link">Ver próximos feriados</a></p>
+                <p>Calendário de feriados de <span id="year">2024</span></p>
+                <div>
+                    <table class="calendar_list" id="calendar">
+                    </table>
+                </div>
+                <p><a href="/" class="calendar_link">Voltar</a></p>
             </article>
             <article class="sharethis__wrapper">
                 <p class="sharethis-title">Compartilhe:</p>
@@ -94,10 +97,10 @@
             </script>
         </section>
         <section class="disclaimer">
-            <p>Fotografia fornecida por <a href="https://pexels.com" rel="nofollow">Pexels</a></p>
+            <p id="author">Fotografia fornecida por <a href="https://pexels.com" rel="nofollow">Pexels</a></p>
             <p>Datas fornecidas por <a href="https://brasilapi.com.br/" rel="nofollow">BrasilAPI</a></p>
             <p>Desenvolvido por <a href="https://carolsantos.dev/">Carol Curcelli</a></p>
         </section>
-        <script src="assets/js/app.js"></script>
+        <script src="assets/js/calendar.js"></script>
     </body>
 </html>
